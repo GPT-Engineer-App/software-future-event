@@ -1,5 +1,5 @@
 import { Box, Container, Flex, Heading, Text, Button, VStack, Link } from "@chakra-ui/react";
-import { FaEnvelope, FaMapMarkerAlt, FaCalendarAlt, FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt, FaCalendarAlt, FaTwitter, FaFacebook, FaLinkedin, FaUser } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -37,6 +37,32 @@ const Index = () => {
             <FaEnvelope />
             <Text ml={2}>info@futureofsoftware.com</Text>
           </Flex>
+        </Box>
+        <Box id="speakers" p={5} shadow="md" borderWidth="1px">
+          <Heading size="md">Speakers</Heading>
+          <VStack spacing={4}>
+            <Box borderWidth="1px" p={4} borderRadius="md">
+              <Flex align="center">
+                <FaUser />
+                <Box ml={2}>
+                  <Text fontWeight="bold">Speaker Name</Text>
+                  <Text fontSize="sm">Speaker Title</Text>
+                </Box>
+              </Flex>
+              <Text mt={2}>Brief bio of the speaker...</Text>
+            </Box>
+            <Box borderWidth="1px" p={4} borderRadius="md">
+              <Flex align="center">
+                <FaUser />
+                <Box ml={2}>
+                  <Text fontWeight="bold">Speaker Name</Text>
+                  <Text fontSize="sm">Speaker Title</Text>
+                </Box>
+              </Flex>
+              <Text mt={2}>Brief bio of the speaker...</Text>
+            </Box>
+            {/* Repeat the above Box for more speakers as needed */}
+          </VStack>
         </Box>
       </VStack>
     </Container>
