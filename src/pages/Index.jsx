@@ -61,7 +61,7 @@ const Index = () => {
               </Flex>
               <Text mt={2}>Brief bio of the speaker...</Text>
             </Box>
-            <!-- Repeat the above Box for more speakers as needed -->
+            {/* Repeat the above Box for more speakers as needed */}
           </VStack>
         </Box>
       </VStack>
