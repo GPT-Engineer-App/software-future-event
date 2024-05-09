@@ -11,6 +11,7 @@ const Index = () => {
             <Link px={3} py={2} color="white" href="#details">Event Details</Link>
             <Link px={3} py={2} color="white" href="#register">Register</Link>
             <Link px={3} py={2} color="white" href="#contact">Contact</Link>
+            <Link px={3} py={2} color="white" href="/hacker-news">Hacker News</Link>
           </Flex>
         </Flex>
       </Box>
