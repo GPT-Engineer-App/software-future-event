@@ -39,25 +39,6 @@ const Index = () => {
           </Flex>
         </Box>
       </VStack>
-      <Box as="footer" bg="brand.700" color="white" py={4}>
-        <Container maxW="container.xl">
-          <Flex justifyContent="space-between" alignItems="center" px={8}>
-            <Text>&copy; 2023 Software 3.0. All rights reserved.</Text>
-            <Flex>
-              <Link href="https://twitter.com" isExternal px={2}>
-                <FaTwitter size="24px" />
-              </Link>
-              <Link href="https://facebook.com" isExternal px={2}>
-                <FaFacebook size="24px" />
-              </Link>
-              <Link href="https://linkedin.com" isExternal px={2}>
-                <FaLinkedin size="24px" />
-              </Link>
-            </Flex>
-            <Text>Contact us: info@futureofsoftware.com</Text>
-          </Flex>
-        </Container>
-      </Box>
     </Container>
   );
 };
