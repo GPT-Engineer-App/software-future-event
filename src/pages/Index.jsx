@@ -6,7 +6,7 @@ const Index = () => {
     <Container maxW="container.xl" p={0}>
       <Box as="header" bg="brand.800" py={4}>
         <Flex justifyContent="space-between" alignItems="center" px={8}>
-          <Heading as="h1" size="lg" color="white">The Future of Software</Heading>
+          <Heading as="h1" size="lg" color="white">Software 3.0</Heading>
           <Flex as="nav">
             <Link px={3} py={2} color="white" href="#details">Event Details</Link>
             <Link px={3} py={2} color="white" href="#register">Register</Link>
